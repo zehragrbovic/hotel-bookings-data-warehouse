@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Local database and Power BI files
+*.sql
+*.pbix
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Local backups
+backup/
+
+data/*.csv
+data/dimensions/*.csv
+
+data/*.csv
+data/dimensions/*.csv
